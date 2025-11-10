@@ -2,9 +2,9 @@ This repository contains a self-practice machine learning classification model i
 
 
 
-The model implemented in this project is the Random Forest Classifier, an ensemble learning method that combines multiple Decision Trees to make more accurate and stable predictions. Each tree is trained on random subsets of the data and features, and the final prediction is made through majority voting among all trees. In this project, the model was trained using 150 estimators, which provided the best balance between accuracy and performance for this dataset.
+The model implemented in this project is the Random Forest Classifier, an ensemble learning method that combines multiple Decision Trees to make more accurate and stable predictions. Each tree is trained on random subsets of the data and features, and the final prediction is made through majority voting among all trees. The model was trained using 150 estimators and the entropy criterion for measuring the quality of splits, which provided a good balance between accuracy and computational efficiency.
 
 
 
-The Random Forest model achieved an accuracy score of 0.798 (79.87%) on the test dataset - higher than the Decision Tree Classifier (72.7%) and comparable to other models such as Logistic Regression (77.9%), K-NN (79.9%), SVM (77.9%), Kernel SVM (80.5%), and Naive Bayes (77.2%). This result highlights the strength of Random Forest in reducing overfitting and improving generalization by averaging the predictions of multiple trees.
+The Random Forest model achieved an accuracy score of 0.798 (79.87%) on the test dataset - higher than the Decision Tree Classifier (72.7%) and comparable to other models such as Logistic Regression (77.9%), K-NN (79.9%), SVM (77.9%), Kernel SVM (80.5%), and Naive Bayes (77.2%). These results highlight the strength of Random Forest in reducing overfitting and improving generalization by averaging predictions from multiple trees trained with entropy-based splits.
 
