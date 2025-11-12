@@ -54,7 +54,8 @@ Included Projects:
 
 6. Decision Tree Classification: (Upcoming) Rule-based model achieving 72.7% accuracy.
 
-7. Random Forest Classification: (Upcoming) Ensemble of decision trees model achieving 738% accuracy.
+7. Random Forest Classification: (Upcoming) Ensemble of decision trees model achieving 79.8% accuracy.
+
 Among all models, the Kernel SVM achieved the highest accuracy (80.5%), making it the most suitable model for this dataset.
 
 Tools and Libraries:
