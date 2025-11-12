@@ -46,15 +46,16 @@ Included Projects:
 
 2. K-Nearest Neighbors (K-NN): Distance-based model achieving 79.9% accuracy.
 
-3. Support Vector Machine (SVM): (Upcoming) Linear boundary-based classifier.
+3. Support Vector Machine (SVM): Linear boundary-based classifier model achieving 77.9% accuracy.
 
-4. Kernel SVM: (Upcoming) Non-linear classifier using the RBF kernel.
+4. Kernel SVM: (Upcoming) Non-linear classifier using the Gaussian RBF kernel, achieving 80.5% accuracy.
 
-5. Naive Bayes: (Upcoming) Probabilistic classifier using Bayes’ theorem.
+5. Naive Bayes: (Upcoming) Probabilistic classifier using Bayes’ theorem, achieving 77.2% accuracy.
 
-6. Decision Tree Classification: (Upcoming) Rule-based model for classifying outcomes.
+6. Decision Tree Classification: (Upcoming) Rule-based model achieving 72.7% accuracy.
 
-7. Random Forest Classification: (Upcoming) Ensemble of decision trees for higher stability and accuracy.
+7. Random Forest Classification: (Upcoming) Ensemble of decision trees model achieving 738% accuracy.
+Among all models, the Kernel SVM achieved the highest accuracy (80.5%), making it the most suitable model for this dataset.
 
 Tools and Libraries:
 
@@ -76,6 +77,6 @@ Learning Outcome:
 
 4. Evaluating model performance using metrics such as accuracy, precision, recall, and confusion matrix.
 
-5. How complex models like Kernel SVM or Random Forest improve upon simpler ones such as Logistic Regression.
+5. How complex models like Kernel SVM or Random Forest improve upon simpler ones, such as Logistic Regression.
 
 All projects are implemented in Google Colab notebooks (.ipynb) using the Diabetes Classification dataset sourced from publicly available platforms such as Kaggle, created purely for self-learning and experimentation.
